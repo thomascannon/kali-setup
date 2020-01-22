@@ -1,9 +1,11 @@
 # Kali Customisation Script
 
-This script idea was originally taken from https://github.com/Raikia/Kali-Setup/.  I do not claim credit for the basis of the script!
+This script idea was originally taken from https://github.com/Raikia/Kali-Setup/ and I claim no credit for it!
 
-I have refactored it and customised it to my needs, which is mainly to build a clean Kali image with mobile security tools.
+It has been refactored and customised to my needs, including many new installer modules
 
 --Thomas
 
-Run:  `python3 ./run.py`
+Example of customising a fresh Kali install with common mobile security tools:
+
+`./run.py mobile_setup.ini`
